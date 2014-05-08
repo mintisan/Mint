@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I "D:\Professional Softwares\Keil4.70\ARM\RV31\INC" 
+-I "D:\Professional Softwares\Keil4.70\ARM\CMSIS\Include" 
+-I "D:\Professional Softwares\Keil4.70\ARM\Inc\ST\STM32F10x" 
+--list ".\mint_port.lst" --xref -o ".\mint_port.o" --depend ".\mint_port.d" "..\MintOS\mint_port.s"
