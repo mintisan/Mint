@@ -1,208 +1,0 @@
-Dependencies for Project 'MintOS', Target 'MintOS': (DO NOT MODIFY !)
-F (.\main.c)(0x536B424F)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-I (..\BSP\bsp.h)(0x52200E58)
-I (..\BSP\usart1.h)(0x5167A80A)
-I (..\BSP\led.h)(0x51E3CCB6)
-I (..\APP\m_app.h)(0x521B23F2)
-I (..\APP\m_app_cfg.h)(0x521B2520)
-F (.\stm32f10x_it.c)(0x521DBA5C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
-I (stm32f10x_it.h)(0x4D99A426)
-I (stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (.\stm32f10x_conf.h)(0x51E6483E)()
-F (..\BSP\bsp.c)(0x521B1850)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\bsp.o --omf_browse ..\output\bsp.crf --depend ..\output\bsp.d)
-I (..\BSP\bsp.h)(0x52200E58)
-I (..\BSP\usart1.h)(0x5167A80A)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\BSP\led.h)(0x51E3CCB6)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-F (..\BSP\led.c)(0x516B97F6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
-I (..\BSP\led.h)(0x51E3CCB6)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\BSP\usart1.c)(0x520B6600)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\usart1.o --omf_browse ..\output\usart1.crf --depend ..\output\usart1.d)
-I (..\BSP\usart1.h)(0x5167A80A)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
-F (..\APP\m_app.c)(0x536B4313)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\m_app.o --omf_browse ..\output\m_app.crf --depend ..\output\m_app.d)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-I (..\APP\m_app.h)(0x521B23F2)
-I (..\APP\m_app_cfg.h)(0x521B2520)
-I (..\BSP\bsp.h)(0x52200E58)
-I (..\BSP\usart1.h)(0x5167A80A)
-I (..\BSP\led.h)(0x51E3CCB6)
-F (..\APP\m_app.h)(0x521B23F2)()
-F (..\APP\m_app_cfg.h)(0x521B2520)()
-F (..\MintOS\m_port.h)(0x521DB9B4)()
-F (..\MintOS\m_port_a.s)(0x521AE608)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x--list ..\listing\m_port_a.lst --xref -o ..\output\m_port_a.o --depend ..\output\m_port_a.d)
-F (..\MintOS\m_port.c)(0x521DB8FE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\m_port.o --omf_browse ..\output\m_port.crf --depend ..\output\m_port.d)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-F (..\MintOS\m_os_cfg.h)(0x521B1842)()
-F (..\MintOS\m_os.h)(0x536B3A6C)()
-F (..\MintOS\m_task.c)(0x536B401D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\m_task.o --omf_browse ..\output\m_task.crf --depend ..\output\m_task.d)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-F (..\MintOS\m_core.c)(0x521DBB34)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\m_core.o --omf_browse ..\output\m_core.crf --depend ..\output\m_core.d)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-F (..\MintOS\m_time.c)(0x536B40B2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\m_time.o --omf_browse ..\output\m_time.crf --depend ..\output\m_time.d)
-I (..\MintOS\m_os.h)(0x536B3A6C)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\MintOS\m_port.h)(0x521DB9B4)
-I (..\MintOS\m_os_cfg.h)(0x521B1842)
-F (..\FWLIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\FWLIB\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\FWLIB\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\FWLIB\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-F (..\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-F (..\CMSIS\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\BSP -I..\FWLIB\inc -I..\CMSIS -I..\MintOS -I..\USER -I..\APP-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CMSIS\core_cm3.h)(0x4D523B58)
-I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x51E6483E)
-I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\STARTUP\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I d:\Keil_v5\ARM\Inc\ST\STM32F10x--list ..\listing\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
