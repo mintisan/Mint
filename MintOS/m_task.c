@@ -26,7 +26,7 @@ void m_get_high_prio(void)
 	uint32_t grp = 0;
 	while(m_prio_tbl[grp] == 0)
 		grp++;
-	
+
 	while((m_prio_tbl[grp] & (0x01 << prio)) == 0)
 		prio++;
 	m_high_prio = (grp << 5) + prio;
@@ -42,7 +42,7 @@ void m_create_task(m_task task, uint32_t* sp, uint32_t prio)
 	m_set_prio(prio);
 }
 
-/* 
+/*
 	任务删除函数可以删除任意状态的任务，
 	只有当其删除自身（即RUNNING状态），会引起调度。
 */
